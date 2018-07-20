@@ -1,0 +1,71 @@
+.container{
+background:#ccc;
+width:100%;
+}
+[class^="col-"]{
+border:1px solid black;
+margin-left:2px;
+}
+
+.top-buffer { margin-top:20px; }
+.classWithPad { margin:10px; padding:10px; }
+
+img {
+
+  /*max-width: 100%;*/
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 15px 10px 15px #888888;
+  
+  
+}
+/*use this to position image*/
+.classWithPad{
+	padding:0px;
+    margin-left: -15px;
+    margin-top: 0px;
+    margin-right:0px;
+}
+
+.left-right{
+	margin-left: -13px;
+	padding: 0px;
+	
+}
+.mid-long{
+	margin-left:-15px;
+	padding: 4px;
+	
+}
+
+#gap{
+	margin-top:5px;
+	 
+}
+#right{
+margin-left:4px;
+	margin-right:5px;
+}
+#left{
+	margin-left: 20px;
+}
+#nobord{
+	
+	margin-top:-5px;
+	border:none;
+}
+#top-title{
+	margin-top: 5px;
+	margin-right: -10px;
+	margin-left: 2px;
+}
+#title{
+	font-family: courier;
+	font-size: 3em;
+	background-color: #edda95;
+	padding:0px;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}

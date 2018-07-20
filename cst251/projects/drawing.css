@@ -1,0 +1,130 @@
+#drawing {
+    position: relative;
+    width: 100%;
+    
+    height: 700px;
+  }
+  
+  .sky {
+  	background-color: #95f1f9;
+  }
+  
+  .grass {
+  	margin-top: 300px;
+    border-top: 3px solid black;
+    background-color: lightgreen;
+    height: 250px;
+    
+  }
+  
+  .sun {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 150px;
+    z-index: 10;
+    background-color: yellow;
+  }
+  
+  .fluff div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #c2c4c4;
+  }
+  
+body{
+	
+}
+
+.fluff1{
+	position: absolute;
+	top: 100px;
+	right: 250px; 
+}
+.fluff2{
+	position: absolute;
+	top: 100px;
+	right: 415px; 
+
+}
+.fluff3{
+	position: absolute;
+	top: 110px;
+	right: 330px; 
+	
+}
+.fluff4{
+	position: absolute;
+	top: 50px;
+	right: 365px; 
+	
+	
+}
+.fluff5{
+	position: absolute;
+	top: 65px;
+	right: 315px; 
+}
+.bird1{
+	font-size: 100px;
+	position: absolute;
+	top: 10px;
+	right: 800px;
+	transform: rotate(-90deg);
+	-webkit-animation: mymoveb 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymoveb 5s infinite;
+}
+.bird2{
+	font-size: 100px;
+	position: absolute;
+	transform: rotate(-90deg);
+	top: 50px;
+	right: 50px;
+}
+.bird3{
+	font-size: 100px;
+	position: absolute;
+	transform: rotate(-90deg);
+	top: 200px;
+	right: 100px;
+}
+.bird4{
+	font-size: 100px;
+	position: absolute;
+	transform: rotate(-90deg);
+	top: 100px;
+	right: 650px;
+}
+.bird5{
+	font-size: 100px;
+	position: absolute;
+	transform: rotate(-90deg);
+	top: 30px;
+	right: 750px;
+}
+.bird6{
+	font-size: 100px;
+	position: absolute;
+	transform: rotate(-90deg);
+	top: -50px;
+	right: 950px;
+}
+.bird7{
+	font-size: 100px;
+	position: absolute;
+	transform: rotate(-90deg);
+	top: -75px;
+	right: 625px;
+}
+
+
+/* Standard syntax */
+@keyframes mymoveb {
+    0% {left: 0px; top: 0px;}
+    25%  {left: 0px; top: -50px;}
+    50%  {left: 0px; top: -100px;}
+    75%  {left: 0px; top: -50px;}
+    100% {left: 0px; top: 0px;}
+}
+

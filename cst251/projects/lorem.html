@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<!--- Published by: Andrew Gutierrez --->
+	</head>
+	<style>
+		body{
+			background: linear-gradient(#f2f3f4, #e0e0e0);;
+		}
+		.box{
+			clear: both;
+			width: 60%;
+			border: 1px solid #3ba043;
+			margin: auto;
+			background-color: white;
+			
+		}
+		h1{
+			text-align: center;
+			color: #3ba043;
+			text-shadow: 2px 2px 4px #000000;
+			
+		}
+		img{
+			float:left;
+			display:inline block;
+			margin: 8px;
+			padding: 2px;
+			border: dashed 1px black;
+		}
+		.text::first-letter{
+			display: inline block;
+			font-size: 2.5em;
+			height: 0;
+			line-height: 1;
+		}
+		.eu_span{
+			color: red;
+		}
+		.img_span{
+			display: inline block;
+		}
+		.text{
+			display: inline block;
+			line-height: 1.5;
+			padding: 5px;
+		}
+		
+		@media screen and (max-width: 800px) {
+			body {
+				background: white;
+			}
+			img{
+				width: 100%;
+				border: white;
+				border-color: #ffffff;
+				padding:0px;
+			}
+			.box{
+				border: none;
+				padding: 0px;
+				width: 100%;
+			}
+			.text{
+				font-size: 1.5em;
+			}
+		}
+		
+	</style>
+	<h1>
+		Lorem Ipsum
+	</h1>
+	<body>
+		<div class="box">
+			<div class= "img_span">
+				<img src="https://lh5.googleusercontent.com/-GIwEcpGZPjc/AAAAAAAAAAI/AAAAAAAAAxA/gKHXXidMbgA/photo.jpg" alt="Lorem Ipsum">
+			</div>
+			<div class ="text">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis arcu non feugiat porttitor. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod tortor id ornare pellentesque. In efficitur, lorem quis faucibus pretium, felis ante porta diam, sit amet imperdiet tortor odio <span class = "eu_span">eu</span> dolor. Cras aliquet, diam id egestas mollis, orci odio congue nisi, sed iaculis metus dui vitae dui. Nam neque odio, mollis a purus lacinia, iaculis porta purus. Ut dui libero, consequat sed nunc ac, maximus vulputate mauris. Integer leo ante, scelerisque <span class = "eu_span">eu</span> finibus a, convallis at tellus. Aenean porta leo dolor, vitae commodo tellus blandit vel. Donec facilisis molestie ipsum, elementum tempor tellus. Curabitur ultricies tristique metus a fermentum. Nunc elementum feugiat dui at ornare. Aenean velit dui, gravida a urna et, dictum aliquam massa. Vivamus vel eleifend quam. Nunc eget arcu eget felis varius tincidunt sit amet ut dui.
+
+			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc laoreet, tortor a feugiat semper, dui metus egestas ante, sit amet lobortis ante enim a lorem. Maecenas porttitor mi nec massa vulputate, eget pulvinar diam egestas. Vestibulum scelerisque, purus <span class = "eu_span">eu</span> tincidunt eleifend, nisl ante accumsan turpis, vel tincidunt augue lorem vel arcu. Maecenas sodales diam et dolor pretium ultrices. Nulla odio diam, malesuada sed gravida a, semper a tortor. Aliquam sed orci ac quam semper aliquam. Curabitur condimentum ligula et elementum porttitor.
+
+			Pellentesque tristique velit in ex pretium, non commodo arcu feugiat. Vivamus in quam lectus. Fusce laoreet ultrices leo nec convallis. Etiam eget lacus sed nisi mattis finibus. Phasellus tincidunt sapien erat. Duis vestibulum risus sed elit scelerisque maximus. Quisque sed scelerisque arcu. Donec massa neque, ultricies id rhoncus varius, laoreet nec massa.
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+	background-image: url("images/kidslibrary.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px 379px;
+}
+.nav li{
+	padding: 10px;
+	display: inline-block;
+	background: #bc2d42;
+	border-radius: 25px 0px 25px 0px;
+}
+.nav li a{
+    font-size: 15px;
+	text-decoration: none;
+	color: White;
+}
+h1{
+	margin: -5px;
+	font-size: 40px;
+	color: #1a5768; 
+    font-style: italic;
+    text-shadow: 2px 2px rgba(165, 165, 165, 1);
+}
+
+.box{
+margin-top: 250px;
+display: inline-block;
+float: left;
+margin-left: 60px;
+}
+
+h2{
+    color: rgb(143, 0, 0);
+}
+
+.content{
+margin:-20px;
+	background-color: #def4fe;
+	width: 300px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(143, 0, 0);
+	box-shadow: 5px 5px 5px black;
+	border-radius: 25px 0px 25px 0px;
+	padding: 10px;
+}
+
+
